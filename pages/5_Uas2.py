@@ -79,7 +79,7 @@ def run_moora_app():
     c_weights = np.array([float(weight) for weight in c_weights.split(',')])
 
     # Mendefinisikan Label Kriteria (benefit dan cost)
-    label = st.multiselect("Pilih Label Kriteria (benefit dan cost)", ["benefit", "cost","benefit", "cost","benefit", "cost",])
+    label = st.multiselect("Pilih Label Kriteria (benefit dan cost)", ["benefit", "cost","benefit", "cost","benefit", "cost","benefit", "cost","benefit", "cost","benefit", "cost",])
 
     # Mendefinisikan Jumlah Alternatif
     num_alternatives = st.number_input("Masukkan Jumlah Alternatif", min_value=1, step=1, value=5)
